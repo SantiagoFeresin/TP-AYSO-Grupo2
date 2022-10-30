@@ -1,0 +1,3 @@
+#Acá se ponen los archivos que se ignoran al subir al repositorio
+
+#"*.html" por ejemplo no subiria los archivos que tengan como extensión html

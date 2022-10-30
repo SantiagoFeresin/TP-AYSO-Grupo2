@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web:
+    container_name: UbuntuApacheWeb
+    build: .
+    volumes:
+      - "volumen-apache:/var/www/html"
+    ports:
+      - "90:80"
+    restart: unless-stopped
+
+volumes:
+  volumen-apache:

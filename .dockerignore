@@ -1,0 +1,8 @@
+#Acá se ponen los archivos que se ignoran al hacer COPY
+
+Dockerfile
+*.md
+*.yml
+*.gitignore
+*.dockerignore
+**/.git
